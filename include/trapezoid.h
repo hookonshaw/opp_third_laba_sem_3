@@ -5,7 +5,7 @@
 class Trapezoid: public Figure {
 public:
     Trapezoid();
-    Trapezoid(const Point& p1, Point& p2, Point& p3, Point& p4);
+    Trapezoid(const Point& p1,const Point& p2,const Point& p3,const Point& p4);
 
     double area() const override;
     Point center() const override;

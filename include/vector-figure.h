@@ -21,11 +21,11 @@ public:
     bool IsEmpty() const;
     double all_area() const;
 
-    void push_back(const Point& p);
+    void push_back(Figure* figure);
     void pop_back();
     void erase(size_t index);
     void clean();
 
-    Figure& operator[](size_t index);
-    const Figure& operator[](size_t index) const;
+    Figure* operator[](size_t index);
+    const Figure* operator[](size_t index) const;
 };

@@ -5,7 +5,7 @@
 class Square: public Figure {
 public:
     Square();
-    Square(const Point& p1, Point& p2, Point& p3, Point& p4);
+    Square(const Point& p1, const Point& p2, const Point& p3, const Point& p4);
 
     double area() const override;
     Point center() const override;

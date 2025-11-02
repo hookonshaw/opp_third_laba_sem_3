@@ -2,10 +2,10 @@
 
 #include "figure.h"
 
-class Rectangel: public Figure {
+class Rectangle: public Figure {
 public:
-    Rectangel();
-    Rectangel(const Point& p1, Point& p2, Point& p3, Point& p4);
+    Rectangle();
+    Rectangle(const Point& p1, const Point& p2, const Point& p3, const Point& p4);
 
     double area() const override;
     Point center() const override;
